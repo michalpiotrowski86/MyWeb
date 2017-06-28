@@ -1,0 +1,25 @@
+{
+  "name": "myweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalpiotrowski86/MyWeb.git"
+  },
+  "author": "Michal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalpiotrowski86/MyWeb/issues"
+  },
+  "homepage": "https://github.com/michalpiotrowski86/MyWeb#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemap": "^1.0.1"
+  }
+}
