@@ -45,7 +45,7 @@ body {
 /*header style*/
 header {
   background-color: #fff;
-  border-bottom: 1px solid #000;
+  // border-bottom: 1px solid #000;
   max-height: 70px;
 }
 
@@ -71,10 +71,63 @@ header .col-6 {
 
 #menu li {
   display: inline-block;
-  margin-left: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-transform: uppercase;
+  transition: all 0.9s ease 0s;
 }
 
-#menu li:hover{
+#menu li:hover {
   background-color: #0A3EE9;
+  cursor: pointer;
+  a {
+    color: #fff;
+  }
+}
+
+#menu {
+  a {
+    color: #0A3EE9;
+    text-decoration: none;
+  }
+}
+/*section main*/
+#main {
+  background-image: url("../images/foto_main.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  text-align: center;
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-top: 20%;
+  }
+  button {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #FF1E00;
+    width: 160px;
+    height: 50px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: all 0.7s ease 0s;
+  }
+  button:hover {
+    background-color: #FF1E00;
+
+  }
 }
