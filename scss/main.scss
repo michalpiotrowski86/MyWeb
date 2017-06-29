@@ -193,6 +193,74 @@ header {
     z-index: -1;
   }
 }
+/*my services style*/
+#services {
+  margin: 40px 0;
+}
+
+.wrapper {
+  position: relative;
+
+  p {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 75%;
+    span {
+      text-transform: lowercase;
+    }
+  }
+
+  .front-box {
+    border: 3px solid #ff1e00;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    background-color: #fff;
+  }
+
+  .back-box {
+    border: 3px solid #ff1e00;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: -1;
+    background-color: #fff;
+  }
+
+  .icon-box {
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.html {
+  background-image: url("../images/icons/icon_01a.svg");
+  background-repeat: no-repeat;
+  background-size: 85px 85px;
+}
+.css3 {
+  background-image: url("../images/icons/icon_02a.svg");
+  background-repeat: no-repeat;
+  background-size: 85px 85px;
+}
+.js {
+  background-image: url("../images/icons/icon_03a.svg");
+  background-repeat: no-repeat;
+  background-size: 85px 85px;
+}
+.jquery {
+  background-image: url("../images/icons/icon_04a.svg");
+  background-repeat: no-repeat;
+  background-size: 85px 85px;
+}
+
 /*section mountains*/
 #mountains {
   background-image: url("../images/mountains.jpg");
