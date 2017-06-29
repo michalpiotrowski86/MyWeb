@@ -79,7 +79,7 @@ body {
       text-transform: uppercase;
       color: #fff;
       background-color: transparent;
-      border: 3px solid #FF1E00;
+      border: 3px solid #ff1e00;
       width: 160px;
       height: 50px;
       font-size: 14px;
@@ -100,6 +100,7 @@ header {
     position: fixed;
     top: 15px;
     left: 15px;
+    z-index: 9999;
   }
 
   .container {
@@ -118,8 +119,8 @@ header {
   }
 
   .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-9px, 9px);
+    transform: rotate(-45deg) translate(-9px, 9px);
   }
 
   .change .bar2 {
@@ -127,11 +128,10 @@ header {
   }
 
   .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-9px, -9px);
+    transform: rotate(45deg) translate(-9px, -9px);
   }
 }
-
 /*opacity nav*/
 .opacity-nav {
   display: none;
@@ -140,8 +140,8 @@ header {
   height: 100vh;
   top: 0;
   background-color: rgba(31,46,62,0.95);
+  z-index: 9999;
 }
-
 /*section about*/
 #about {
   height: 100vh;
@@ -160,20 +160,20 @@ header {
 }
 
 .top {
-  position: absolute;
+  position: relative;
   z-index: 0;
+  top: 90px;
+  right: 160px;
 }
 
 .about-content {
-  border: 3px solid #0A3EE9;
+  border: 3px solid #022d9a;
   height: 500px;
   width: 700px;
   position: relative;
   background-color: #fff;
   text-align: left;
   padding: 65px;
-  top: 90px;
-  right: 140px;
   letter-spacing: 1px;
 
   p {
@@ -181,7 +181,7 @@ header {
   }
 
   .about-content-shadow {
-    border: 3px solid #0A3EE9;
+    border: 3px solid #022d9a;
     height: 500px;
     width: 700px;
     position: absolute;
@@ -206,7 +206,7 @@ header {
 }
 /*footer*/
 #footer-section {
-  background-color: #0A3EE9;
+  background-color: #022d9a;
   height: 35vh;
   position: relative;
 }

@@ -2,16 +2,12 @@ $(function() {
   let burger = $(".burger-menu");
   let opacityMenu = $(".opacity-nav");
 
-  $(function() {
-    burger.on("click", function() {
+  burger.on("click", function() {
+    if (opacityMenu.css("display") == "none") {
       opacityMenu.css("display", "block")
-    })
+    } else {
+      opacityMenu.css("display", "none")
+    }
+    this.classList.toggle("change");
   })
-
-  // $(function() {
-  //   burger.on("click", function() {
-  //     this.classList.toggle("change");
-  //   })
-  // });
-
 });
