@@ -58,7 +58,7 @@ body {
   left: 0;
 
   h1 {
-    font-size: 65px;
+    font-size: 69px;
     font-weight: 900;
     letter-spacing: 1px;
     color: #fff;
@@ -81,8 +81,8 @@ body {
       color: #fff;
       background-color: transparent;
       border: 3px solid #ff1e00;
-      width: 160px;
-      height: 50px;
+      width: 240px;
+      height: 60px;
       font-size: 24px;
       letter-spacing: 1px;
       cursor: pointer;
@@ -188,8 +188,8 @@ header {
     width: 700px;
     position: absolute;
     background-color: #fff;
-    top: 5%;
-    left: 5%;
+    top: 20px;
+    left: 20px;
     z-index: -1;
   }
 }
@@ -206,6 +206,7 @@ header {
     font-size: 30px;
     text-align: center;
     margin-top: 75%;
+
     span {
       text-transform: lowercase;
     }
@@ -224,8 +225,8 @@ header {
     width: 200px;
     height: 250px;
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 20px;
+    left: 20px;
     z-index: -1;
     background-color: #fff;
   }
@@ -240,27 +241,123 @@ header {
   }
 }
 
+.wrapper {
+  position: relative;
+
+  .front-box:hover {
+    border: 3px solid #ff1e00;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    background-color: #ff1e00;
+    top: 20px;
+    left: 20px;
+    p {
+      color: #fff;
+    }
+    .html {
+      background-image: url("../images/icons/icon_01b.svg");
+      background-repeat: no-repeat;
+      background-size: 85px 85px;
+    }
+    .css3 {
+      background-image: url("../images/icons/icon_02b.svg");
+      background-repeat: no-repeat;
+      background-size: 85px 85px;
+    }
+    .js {
+      background-image: url("../images/icons/icon_03b.svg");
+      background-repeat: no-repeat;
+      background-size: 85px 85px;
+    }
+    .jquery {
+      background-image: url("../images/icons/icon_04b.svg");
+      background-repeat: no-repeat;
+      background-size: 85px 85px;
+    }
+    .react {
+      background-image: url("../images/icons/icon_05b.svg");
+      background-repeat: no-repeat;
+      background-size: 85px 85px;
+    }
+    .git {
+      background-image: url("../images/icons/icon_06b.svg");
+      background-repeat: no-repeat;
+      background-size: 85px 85px;
+    }
+
+    .sass {
+      background-image: url("../images/icons/icon_07b.svg");
+      background-repeat: no-repeat;
+      background-size: 85px 85px;
+    }
+
+    .rwd {
+      background-image: url("../images/icons/icon_08b.svg");
+      background-repeat: no-repeat;
+      background-size: 85px 85px;
+    }
+  }
+  .back-box {
+    border: 3px solid #ff1e00;
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+    background-color: #fff;
+  }
+}
+
+
 .html {
   background-image: url("../images/icons/icon_01a.svg");
   background-repeat: no-repeat;
   background-size: 85px 85px;
 }
+
 .css3 {
   background-image: url("../images/icons/icon_02a.svg");
   background-repeat: no-repeat;
   background-size: 85px 85px;
 }
+
 .js {
   background-image: url("../images/icons/icon_03a.svg");
   background-repeat: no-repeat;
   background-size: 85px 85px;
 }
+
 .jquery {
   background-image: url("../images/icons/icon_04a.svg");
   background-repeat: no-repeat;
   background-size: 85px 85px;
 }
 
+.react {
+  background-image: url("../images/icons/icon_05a.svg");
+  background-repeat: no-repeat;
+  background-size: 85px 85px;
+}
+
+.git {
+  background-image: url("../images/icons/icon_06a.svg");
+  background-repeat: no-repeat;
+  background-size: 85px 85px;
+}
+
+.sass {
+  background-image: url("../images/icons/icon_07a.svg");
+  background-repeat: no-repeat;
+  background-size: 85px 85px;
+}
+
+.rwd {
+  background-image: url("../images/icons/icon_08a.svg");
+  background-repeat: no-repeat;
+  background-size: 85px 85px;
+}
 /*section mountains*/
 #mountains {
   background-image: url("../images/mountains.jpg");
@@ -279,6 +376,27 @@ header {
   background-color: #022d9a;
   height: 35vh;
   position: relative;
+}
+
+.social-icons {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  .linkedin {
+    background-image: url("../images/social/icon_linkedIn.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+  }
+  .github {
+    background-image: url("../images/social/icon_github.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+  }
 }
 
 .footer-content {
