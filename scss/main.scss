@@ -165,6 +165,7 @@ header {
     a {
       text-decoration: none;
       color: #fff;
+      transition: all 0.7s ease 0s;
     }
 
     a:hover {
@@ -225,7 +226,9 @@ header {
   }
 }
 /*my services style*/
-#services {}
+#services {
+  margin: 0 auto;
+}
 
 .wrapper {
   position: relative;
@@ -408,6 +411,13 @@ header {
   height: 480px;
   width: 100%;
 }
+
+/*contact*/
+
+  .contact-form {
+    margin: 0 auto;
+  }
+
 /*footer*/
 #footer-section {
   background-color: #022d9a;
