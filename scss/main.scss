@@ -43,7 +43,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 /*section main*/
-.col-12 #main {
+#main {
   background-image: url("../images/foto_main.jpg");
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -159,9 +159,7 @@ header {
       padding: 10px 0;
       letter-spacing: 1px;
     }
-    // li:hover {
-    //   color: #ff1e00;
-    // }
+
     a {
       text-decoration: none;
       color: #fff;
@@ -456,7 +454,6 @@ button:hover {
   background-color: #022d9a;
   height: 240px;
   position: relative;
-  margin-top: 120px;
 }
 
 .social-icons {
