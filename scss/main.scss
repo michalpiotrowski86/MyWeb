@@ -416,6 +416,8 @@ header {
 
 .contact-form {
   font-size: 18px;
+  position: relative;
+  margin: 0 auto;
 }
 
 input[type=email],
@@ -465,8 +467,11 @@ button:hover {
 }
 
 .button {
-
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
 /*footer*/
 #footer-section {
   background-color: #022d9a;
