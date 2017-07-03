@@ -417,7 +417,7 @@ header {
 .contact-form {
   font-size: 18px;
   position: relative;
-  margin: 0 auto;
+  margin-bottom: 120px;
 }
 
 input[type=email],
@@ -470,6 +470,7 @@ button:hover {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  margin-top: 60px;
 }
 
 /*footer*/
