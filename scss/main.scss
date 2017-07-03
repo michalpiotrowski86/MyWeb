@@ -232,7 +232,8 @@ header {
 
 .wrapper {
   position: relative;
-  margin: 0 60px 120px;
+  margin-top: 0;
+  margin-bottom: 60px;
 
   p {
     text-transform: uppercase;
@@ -273,6 +274,8 @@ header {
     transform: translateX(-50%);
   }
 }
+
+
 
 .wrapper {
   position: relative;
@@ -410,6 +413,7 @@ header {
   background-size: cover;
   height: 480px;
   width: 100%;
+  margin-top: 60px;
 }
 /*contact*/
 #contact {
@@ -474,7 +478,6 @@ button:hover {
   transform: translateX(-50%);
   margin-top: 60px;
 }
-
 /*footer*/
 #footer-section {
   background-color: #022d9a;
@@ -514,4 +517,9 @@ button:hover {
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.extra-width {
+  width: 1200px;
+  margin: 0 auto;
 }
