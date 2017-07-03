@@ -189,13 +189,15 @@ header {
   background-size: contain;
   height: 720px;
   width: 600px;
+  margin: 0 auto;
 }
 
 .top {
   position: relative;
   z-index: 0;
-  top: 90px;
-  right: 160px;
+  top: 85px;
+  right: 120px;
+  margin: 0 auto;
 }
 
 .about-content {
@@ -212,7 +214,7 @@ header {
     padding-top: 18px;
   }
 
-  .about-content-shadow {
+  .about-content-behind {
     border: 3px solid #022d9a;
     height: 550px;
     width: 720px;
