@@ -249,11 +249,15 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 720px;
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
 }
 
-.top {
+.margin {
+
+}
+
+.content-container {
   position: relative;
   z-index: 0;
   top: 85px;
@@ -292,12 +296,13 @@ header {
       background-image: url("../images/bio_foto.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      max-height: 700px;
-      max-width: 100%;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
       margin-bottom: 30px;
     }
 
-    .top {
+    .content-container {
       position: relative;
       top: 0;
       left: 0;
