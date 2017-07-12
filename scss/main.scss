@@ -348,9 +348,8 @@ header {
     }
 
     .content-container {
-      position: relative;
-      max-width: 95%;
-      margin: auto;
+      width: 100%;
+      margin: 0 auto;
       top: 0;
       left: 0;
     }
@@ -359,11 +358,11 @@ header {
       border: 3px solid #022d9a;
       height: auto;
       max-width: 100%;
-      position: relative;
       background-color: #fff;
       text-align: left;
       padding: 30px;
       letter-spacing: 1px;
+      margin: 0 auto;
 
       p {
         font-size: 16px;
@@ -373,7 +372,7 @@ header {
         border: 3px solid #022d9a;
         height: 100%;
         max-width: 100%;
-        position: absolute;
+        // position: absolute;
         background-color: #fff;
         top: 10px;
         left: 10px;
@@ -657,15 +656,6 @@ header {
   }
 }
 
-// @media only screen and (min-width: 601px) {
-//   #services {
-//     [class*="col-"] {
-//       width: 50%;
-//       margin-bottom: 60px;
-//       border: 2px solid yellow;
-//     }
-//   }
-// }
 
 /*section mountains*/
 #mountains {
